@@ -1,0 +1,6 @@
+data/     
+*.pth
+out/*.log
+.vscode/
+__pycache__/
+out/*

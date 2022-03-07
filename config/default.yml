@@ -1,0 +1,6 @@
+train_parttern: './data/train/*/det/det.txt'
+test_dir: './data/train'
+out_dir: 'out'
+iou_threshold: 0.3
+min_age: 3
+display: true
