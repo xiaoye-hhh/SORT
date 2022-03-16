@@ -2,17 +2,18 @@
 [数据集链接](https://motchallenge.net/data/MOT15.zip)
 
 效果看起来不是很好, 准备尝试deepsort
-# 快速开始
-下载代码: `git clone git@github.com:xiaoye-hhh/SORT.git`
-下载数据集: `wget https://motchallenge.net/data/MOT15.zip`
-解压: `unzip MOT15.zip`
-改名: `mv MOT15.zip data`
-运行: `python main.py`
 
 # 实现了一个简单的deep_sort
 [链接](https://github.com/xiaoye-hhh/simple_deepsort)
 
-一些坑:
+# 快速开始
+- 下载代码: `git clone git@github.com:xiaoye-hhh/SORT.git`
+- 下载数据集: `wget https://motchallenge.net/data/MOT15.zip`
+- 解压: `unzip MOT15.zip`
+- 改名: `mv MOT15 data`
+- 运行: `python main.py`
+
+# 一些坑:
  - 建议使用:filterpy的卡尔曼滤波,而不是cv2的
  - 注意区分矩形框的表示格式: 
    - 数据集格式: [frame, _, x1, y1, w, h, _, _, _]
