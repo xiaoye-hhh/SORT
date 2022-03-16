@@ -9,6 +9,9 @@
 改名: `mv MOT15.zip data`
 运行: `python main.py`
 
+# 实现了一个简单的deep_sort
+[链接](https://github.com/xiaoye-hhh/simple_deepsort)
+
 一些坑:
  - 建议使用:filterpy的卡尔曼滤波,而不是cv2的
  - 注意区分矩形框的表示格式: 
